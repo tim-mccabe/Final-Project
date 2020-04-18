@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+​
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+​
+    <title>Final Project-Hailey, Tim and Gina</title>
+​
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+​
+  </head>
+​
+  <body>
+    <!-- Start of navbar -->
+	<div class="navigation">
+	  <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">Final Project-Hailey, Tim and Gina</a>
+        <button class="navbar-toggler border" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+​
+​
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink" role="button" aria-haspopup="true" aria-expanded="false">Regression Visualizations</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="linearregression.html">Linear Regression</a>
+                  <a class="dropdown-item" href="lasso.html">Lasso</a>
+                  <a class="dropdown-item" href="rf.html">Random Forest</a>
+                  <a class="dropdown-item" href="gb.html">Gradient Boosting</a>
+                  <a class="dropdown-item" href="en.html">ElasticNet</a>
+                  <a class="dropdown-item"href="index.html">Home</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.kaggle.com/ginalnelson/homepredictcu">Our Kaggle Notebook</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.kaggle.com/c/house-prices-advanced-regression-techniques">Kaggle Competition</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!-- End of navbar -->
+  ​
+​
+    <!-- Start of container -->
+    <div class="container">
+      <section class="row">
+        <div class="col-md-6 col-sm-12">
+          <div class="description-content">
+            <h1 class="description-header">Elastic Net Regression</h1>
+            <hr>
+            <strong>Elastic Net is another regularization model that combines the strengths of Lasso and Ridge regression models. It is especially good when there is a correlation between the parameters. </strong>
+            <img src="Resources/assets/images/en.jpg" alt="ElasticNet">
+            
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+​
+         <!-- Start of Visualizations imageNav Area -->
+         <section id="imageNav-area">
+            <div class="imageNav-content">
+              <h2 class="imageNav-header">Regression Models We Employed-Visualized</h2>
+              <hr />
+              <div class="container">
+			    <div class="row">
+				  <div class="col-6">
+                    <a href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html.html">
+				      <img src="Resources/assets/images/linearregressiontowardsdatascience.png" alt="LinearRegression", title="Linear Regression" class="imageNav-photo">
+				    </a>
+				  </div>
+				  <div class="col-6">
+                    <a href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html">
+				      <img src="Resources/assets/images/lassokdnuggetsregularization.png" alt="Lasso", title="Lasso Regression" class="imageNav-photo">
+			        </a>
+                    </div>
+				  <div class="col-6">
+                    <a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html">
+				      <img src="Resources/assets/images/randomforestmediumsanthosh.png" alt="RandomForest", title="Random Forest", class="imageNav-photo">
+				    </a>
+				  </div>
+				  <div class="col-6">
+                    <a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html">
+				      <img src="Resources/assets/images/gradientboostingscikitlearn.png" alt="GradientBoosting", title="Gradient Boosting", class="imageNav-photo">
+				    </a>
+                  </div>
+                  <div class="col-6">
+                    <a href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.ElasticNet.html">
+				      <img src="Resources/assets/images/elasticnetenhanceddatascience.png" alt="ElasticNet", title="Elastic Net", class="imageNav-photo">
+				    </a>
+				  </div>
+                </div>
+			  </div>
+            </div>
+          </section>
+          <!-- End of the Visualizations imageNav Area -->
+​
+        </div>
+      </section>
+    </div>
+    <!-- End of container -->
+​
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      </body>
+​
+</html>
