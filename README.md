@@ -1,4 +1,4 @@
-# Final Project
+# First Kaggle Competition
 
 ## Into
 
@@ -8,6 +8,15 @@ This model was made all in Python using primarily the Scikit-Learn library and s
 Since the competition, I have personally improved the model and have created a new webpage that explains the thought process along with the results.
 This can be found on my blog with other machine learning projects and data related projects. https://tim-mccabe.github.io/house_prices.html
 
+## Tasks Performed
+
+In this project was meant to be solved using advanced regression techniques. Data cleaning and visualizing was a huge part of deciding which feature to run the algorithms on. 
+Once those features were selected the regression techniques we used included:
+  * Linear Regression
+  * Lasso Regression
+  * Random Forest Regression
+  * Gradient Boosting Regression
+
 ## Source
 
-The idea and dataset for this project was provided by a machine learning competitionon the Kaggle website: 
+The idea and dataset for this project was provided by a machine learning competitionon the Kaggle website: https://www.kaggle.com/c/house-prices-advanced-regression-techniques
